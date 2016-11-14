@@ -1,0 +1,40 @@
+html,
+body {
+  background-color: #fff; }
+
+nav .oval_wrap {
+  width: 100px;
+  height: 50px;
+  overflow: visible;
+  float: left;
+  margin-right: 20px; }
+  nav .oval_wrap .oval {
+    width: 98%;
+    height: 98%;
+    border-radius: 100%/100%;
+    background-color: #00f;
+    position: relative;
+    text-align: center; }
+    nav .oval_wrap .oval:hover {
+      background-color: #0f0; }
+      nav .oval_wrap .oval:hover a {
+        color: white; }
+  nav .oval_wrap a {
+    font-family: Rockwell, serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    nav .oval_wrap a:hover {
+      color: white; }
+
+.hide {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
